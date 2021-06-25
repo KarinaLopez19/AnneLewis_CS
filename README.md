@@ -7,7 +7,7 @@
 | Column      | Type | Description     | Notes     |
 | :---        |    :----:   |          ---: |          ---: |
 | email       | string      | Primary email address   | No null values   | 
-| code      | string       | Source code   | No null values   | 
+| code      | string       | Source code   | null values NaN  | 
 | is_unsub      | string       | Is the primary email address unsubscribed?   | No null values   |
 | created_dt      | datetime       | Person creation datetime   | No null values   |
 | updated_dt      | datetime       | Person updated datetime   | No null values   |
